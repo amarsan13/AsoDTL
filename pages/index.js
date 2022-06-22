@@ -8,15 +8,15 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Asociación DTL (Página provisional)</title>
+        <title>Asociacion DTL (Pagina provisional)</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Asociación DTL (Página provisional)" />
+        <Header title="Asociacion DTL (Pagina provisional)" />
         <hr />
         <p className="description">
-          Si tienes alguna duda puedes rellenar este formulario con tus preguntas o si necesitas información adicional, y te responderemos lo antes posible.
+          Si tienes alguna duda puedes rellenar este formulario con tus preguntas, o si necesitas informacion adicional, y te responderemos lo antes posible.
         </p>
         <FeedbackForm />
         <JokeBlock />
