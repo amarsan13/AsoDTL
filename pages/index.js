@@ -8,16 +8,15 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Toolbox</title>
+        <title>Asociación DTL (Página provisional)</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Next.js Toolbox" />
+        <Header title="Asociación DTL (Página provisional)" />
         <hr />
         <p className="description">
-          Here's an example of a Netlify Form! When you fill this out, the
-          submissions can be found in the Netlify Admin site.
+          Si tienes alguna duda puedes rellenar este formulario con tus preguntas o si necesitas información adicional, y te responderemos lo antes posible.
         </p>
         <FeedbackForm />
         <JokeBlock />
